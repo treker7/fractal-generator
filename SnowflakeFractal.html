@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>
+Fractal Generator
+</title>
+<meta charset="UTF-8">
+<style>
+body {
+	background-color: #555555;
+	color: #6699ff;
+	font-size: 16px;	
+	font-family: "Times New Roman";	
+    text-align: left;
+}
+.title {
+	font-size: 24px;
+	text-align: center;
+}
+</style>
+</head>
+
+<body>
+<div class="title">Fractal Generator in Jacascript</div>
+<div style="text-align: center;">Author: Treker Battig</div>
+<canvas id="canvas">
+
+</canvas><br>
+<button id="draw">Render Fractal</button><br>
+Seed Polygon: <input id="seed" size="5" value="3"><br>
+Fractal Depth: <input id="depth" size="5" value="4"><br>
+Orientation: <input id="orientation" size="5" value="30"><br>
+Number of Sides: <span id="sides"></span>
+<script src="SnowflakeFractal.js">
+</script>
+</body>
+
+</html>
